@@ -1,0 +1,41 @@
+{
+  "version": 2,
+  "settings": {
+    "layout": {
+      "contentSize": "1408px",
+      "wideSize": "1408px"
+    },
+    "typography": {
+      "customFontSize": true,
+      "defaultFontSizes": false,
+      "dropCap": true,
+      "fluid": true,
+      "fontFamilies": [
+        {
+          "fontFamily": "-apple-system,BlinkMacSystemFont,\"Inter\",\"Segoe UI\",Roboto,Oxygen-Sans,Ubuntu,Cantarell,\"Helvetica Neue\",sans-serif",
+          "name": "System Font",
+          "slug": "system-font"
+        },
+        {
+          "fontFace": [
+            {
+              "fontFamily": "Inter",
+              "fontStretch": "normal",
+              "fontStyle": "normal",
+              "fontWeight": "200 900",
+              "src": ["file:./assets/fonts/Inter-VariableFont_opsz,wght.ttf"]
+            }
+          ],
+          "fontFamily": "\"Inter\", Helvetica, Arial, sans-serif",
+          "name": "Inter",
+          "slug": "inter"
+        }
+      ]
+    }
+  },
+  "styles": {
+    "typography": {
+      "fontFamily": "var(--wp--preset--font-family--inter)"
+    }
+  }
+}
